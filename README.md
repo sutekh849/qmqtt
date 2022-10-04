@@ -3,7 +3,7 @@ QMQTT
 
 mqtt client for Qt
 
-**Please compile the library with Qt >= 5.3 version. On Windows you need to specify `CONFIG += NO_UNIT_TESTS`, since gtest is not supported.**
+**Please compile the library with Qt >= 6.4 version. On Windows you need to specify `CONFIG += NO_UNIT_TESTS`, since gtest is not supported.**
 
 SSL is enabled by default, if the version of OpenSSL < 1.0.2, SSL may not be supported. 
 
@@ -15,7 +15,7 @@ Disable the SSL with src/mqtt/qmqtt.pro (qmake):
 
     CONFIG+=QMQTT_NO_SSL
 
-To add websocket support, compile the library with Qt >= 5.7, and specify 'CONFIG += QMQTT_WEBSOCKETS'.
+To add websocket support, specify 'CONFIG += QMQTT_WEBSOCKETS'.
 This also works when compiling qmqtt for WebAssembly.
 
 Usage
