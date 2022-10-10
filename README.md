@@ -3,7 +3,7 @@ QMQTT
 
 mqtt client for Qt
 
-**Please compile the library with Qt >= 6.4 version. On Windows you need to specify `CONFIG += NO_UNIT_TESTS`, since gtest is not supported.**
+**Please compile the library with Qt >= 6.2.4 version. On Windows you need to specify `CONFIG += NO_UNIT_TESTS`, since gtest is not supported.**
 
 SSL is enabled by default, if the version of OpenSSL < 1.0.2, SSL may not be supported. 
 
